@@ -1,0 +1,40 @@
+{
+  "name": "Blogging-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "csurf": "^1.10.0",
+    "dompurify": "^1.0.11",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^0.7.0",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.4",
+    "nodemon": "^1.19.1",
+    "sanitize-html": "^1.27.5",
+    "socket.io": "^2.4.1",
+    "validator": "^11.1.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
